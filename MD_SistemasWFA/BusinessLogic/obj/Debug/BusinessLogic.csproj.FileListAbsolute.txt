@@ -1,0 +1,12 @@
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessEntities.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\MetroFramework.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessEntities.pdb
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.pdb

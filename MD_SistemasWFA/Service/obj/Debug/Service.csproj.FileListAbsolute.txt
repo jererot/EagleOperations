@@ -1,0 +1,4 @@
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\bin\Debug\Service.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\bin\Debug\Service.pdb
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\obj\Debug\Service.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\obj\Debug\Service.pdb

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="be19e666b38c4b99bfe3bceecebd1ce0" Name="Diagram1">
+        <EntityTypeShape EntityType="EagleModel.CLIt01_paciente" Width="1.5" PointX="11.25" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt02_actividad" Width="1.5" PointX="17.25" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt03_atencion" Width="1.5" PointX="19.5" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt04_atencion_dtl" Width="1.5" PointX="24.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt05_antece_alergia" Width="1.5" PointX="13.5" PointY="80" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt06_tipo_especialidad" Width="1.5" PointX="4.5" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt07_especialidad_medica" Width="1.5" PointX="6.75" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt08_funciones_vitales" Width="1.5" PointX="21.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt09_anamnesis" Width="1.5" PointX="21.75" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt10_examen_fisico" Width="1.5" PointX="21.75" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt11_estudio_complementario" Width="1.5" PointX="21.75" PointY="71.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt12_archivo_complementario" Width="1.5" PointX="24" PointY="71.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt13_laboratorio" Width="1.5" PointX="21.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt14_img_laboratorio" Width="1.5" PointX="24" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt15_diagnostico" Width="1.5" PointX="27.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt16_cie10" Width="1.5" PointX="25.5" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt17_tratamiento" Width="1.5" PointX="21.75" PointY="80.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt18_evolucion" Width="1.5" PointX="21.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CLIt19_cita" Width="1.5" PointX="19.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.CSHt01_caja_dtl" Width="1.5" PointX="11.25" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.FISt01_control_numeracion" Width="1.5" PointX="24.5" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.FISt02_nivel" Width="1.5" PointX="22.25" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.FISt03_tipo_numeracion" Width="1.5" PointX="22.25" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.GRLt01_parametro" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.GRLt02_estado" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.GRLt03_horario" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.GRLt04_configuracion_caja" Width="1.5" PointX="11.25" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt01_medio_pago" Width="1.5" PointX="19.5" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt02_descuento" Width="1.5" PointX="19.5" PointY="63" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt03_tipo_orden" Width="1.5" PointX="11.25" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt04_canal_vta" Width="1.5" PointX="11.25" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt05_razon" Width="1.5" PointX="19.5" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt06_impuesto" Width="1.5" PointX="17.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt07_estado_civil" Width="1.5" PointX="0.75" PointY="53.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt08_location" Width="1.5" PointX="11.25" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt09_tipo_location" Width="1.5" PointX="9" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt10_impresora" Width="1.5" PointX="6.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt11_tipo_impresora" Width="1.5" PointX="4.5" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt12_caja" Width="1.5" PointX="9" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt13_turno" Width="1.5" PointX="11.25" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt14_mesa" Width="1.5" PointX="11.25" PointY="73.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.MSTt15_estado_mesa" Width="1.5" PointX="9" PointY="73.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PERt01_usuario" Width="1.5" PointX="11.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PERt02_cliente" Width="1.5" PointX="3" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PERt03_proveedor" Width="1.5" PointX="6" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PERt04_empleado" Width="1.5" PointX="9" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PERt05_categoria_emp" Width="1.5" PointX="6.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PERt06_clase_emp" Width="1.5" PointX="6.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt01_marca" Width="1.5" PointX="15" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt02_modelo" Width="1.5" PointX="17.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt03_familia" Width="1.5" PointX="15" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt04_subfamilia" Width="1.5" PointX="17.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt05_grupo_prod" Width="1.5" PointX="15" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt06_clase_prod" Width="1.5" PointX="17.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt07_tipo_prod" Width="1.5" PointX="17.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt08_precio_prod" Width="1.5" PointX="21.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt09_producto" Width="1.5" PointX="19.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt10_receta" Width="1.5" PointX="17.25" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt11_receta_dtl" Width="1.5" PointX="21.75" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt12_receta_grupo" Width="1.5" PointX="15" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt13_combo" Width="1.5" PointX="17.25" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt14_combo_fixed_dtl" Width="1.5" PointX="24.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt15_combo_variable" Width="1.5" PointX="22.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt16_combo_variable_dtl" Width="1.5" PointX="24.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.PROt17_combo_grupo" Width="1.5" PointX="15" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.RPTt01_reporte" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.RPTt02_categoria_reporte" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt01_tipo_medio_pago" Width="1.5" PointX="17.25" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt02_tipo_doc_identidad" Width="1.5" PointX="0.75" PointY="45.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt03_entidad_financiera" Width="1.5" PointX="6.75" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt04_tipo_moneda" Width="1.5" PointX="11.25" PointY="66.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt05_tipo_existencia" Width="1.5" PointX="17.25" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt06_unidad_medida" Width="1.5" PointX="17.25" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt07_tipo_intangible" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt08_codigo_libro" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt09_cta_contable" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt10_tipo_comprobante" Width="1.5" PointX="11.25" PointY="77.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt11_aduana" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt12_tipo_operacion" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt13_tipo_actividad" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt14_nacionalidad" Width="1.5" PointX="0.75" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt15_via" Width="1.5" PointX="0.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt16_zona" Width="1.5" PointX="0.75" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt17_tipo_trabajador" Width="1.5" PointX="6.75" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt18_situacion_educativa" Width="1.5" PointX="6.75" PointY="61" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt19_ocupacion" Width="1.5" PointX="9" PointY="40.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt20_regimen_pensionario" Width="1.5" PointX="6.75" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt21_condicion_laboral" Width="1.5" PointX="6.75" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt22_periodo_remuneracion" Width="1.5" PointX="6.75" PointY="70.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt23_salud_eps" Width="1.5" PointX="9" PointY="66.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt24_situacion" Width="1.5" PointX="6.75" PointY="74.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt25_motivo_baja" Width="1.5" PointX="6.75" PointY="77.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt26_modalidad_formativa" Width="1.5" PointX="6.75" PointY="80.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt27_vinculo_familiar" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt28_suspencion_laboral" Width="1.5" PointX="6.75" PointY="84.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt29_regimen_salud" Width="1.5" PointX="9" PointY="69.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt30_regimen_laboral" Width="1.5" PointX="6.75" PointY="87.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt31_departamento" Width="1.5" PointX="1.5" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt32_provincia" Width="1.5" PointX="1.5" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.SNTt33_distrito" Width="1.5" PointX="0.75" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt01_comp_recibido" Width="1.5" PointX="16.5" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt02_comp_recibido_dtl" Width="1.5" PointX="24.75" PointY="53.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt03_comp_recibido_estado" Width="1.5" PointX="18.75" PointY="59.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt04_comp_emitido" Width="1.5" PointX="13.5" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt05_comp_emitido_dtl" Width="1.5" PointX="21.75" PointY="50.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt06_comp_emitido_estado" Width="1.5" PointX="15.75" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt07_medio_pago_dtl" Width="1.5" PointX="21.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TNSt08_descuento_dtl" Width="1.5" PointX="21.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EagleModel.TOTt01_total_diario_vta" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="EagleModel.RefCLIt01_paciente1581" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt01_paciente1611" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt01_paciente1771" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt02_cliente1541" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt19_ocupacion1511" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt23_salud_eps1521" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt29_regimen_salud1531" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FK_cli_t17_atencion_cli_t16_actividad" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FK_cli_t18_atencion_dtl_cli_t16_actividad" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FK_cli_t18_atencion_dtl_cli_t17_atencion" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1631" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1641" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1651" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1671" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1691" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1701" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1721" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt03_atencion1731" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt19_cita1781" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado1791" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado1741" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FK_rhu_t02_especialidad_medica_rhu_t04_tipo_especialidad" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt07_especialidad_medica1601" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.Refcli_t11_estudios_complementarios20" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.Refcli_t13_laboratorio22" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCLIt16_cie101711" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado1761" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt12_caja138" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt13_turno160" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado140" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado154" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefFISt02_nivel127" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefFISt03_tipo_numeracion128" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt04_canal_vta132" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt12_caja124" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt10_tipo_comprobante126" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt12_caja129" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt01_tipo_medio_pago1381" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefTSOt01_medio_pago82" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCTBt02_Descuento85" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt10_id_tipo_vta" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt13_id_tipo_vta" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt04_canal_vta157" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefVTAt05_canal_vta89" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCTBt03_Razon83" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCTBt03_Razon86" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt06_impuesto1851" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt06_impuesto1861" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCMRt13_id_est_civil" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt07_estado_civil1061" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt07_estado_civil1171" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCMRt10_origen_entidad107" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt09_tipo_location1011" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt10_impresora117" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt10_impresora119" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt10_impresora120" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt10_impresora121" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt10_impresora122" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt10_impresora123" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt11_tipo_impresora116" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt13_turno161" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt14_mesa158" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefMSTt15_estado_mesa159" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt01_usuario1441" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt01_usuario1451" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado1371" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCMRt13_cod_tipo_doc" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt02_cliente1881" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt14_nacionalidad1231" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt15_via1021" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt16_zona1031" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt33_distrito1041" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt03_proveedor1401" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt02_tipo_doc_identidad1091" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt14_nacionalidad1221" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt15_via1071" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt16_zona1081" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt33_distrito1051" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado1411" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt04_empleado1431" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt05_categoria_emp142" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPERt06_clase_emp143" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt02_tipo_doc_identidad1151" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt03_entidad_financiera1201" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt14_nacionalidad1211" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt15_via1181" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt16_zona1191" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt17_tipo_trabajador1241" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt18_situacion_educativa1251" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt19_ocupacion1261" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt20_regimen_pensionario1271" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt21_condicion_laboral1281" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt22_periodo_remuneracion1291" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt23_salud_eps1301" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt24_situacion1311" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt25_motivo_baja1321" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt26_modalidad_formativa1331" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt28_suspencion_laboral1341" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt29_regimen_salud1351" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt30_regimen_laboral1361" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt33_distrito1161" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt01_marca901" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKALMt08_id_modelo" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt03_familia911" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt04_subfamilia921" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt05_grupo_prod961" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt06_clase_prod971" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKALMt08_cod_tipo_prod" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt09_producto1461" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKALMt08_id_um" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt11_id_prod" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt14_id_prod" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKVTAt04_id_mon" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefALMt08_producto114" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefALMt14_tipo_existencia88" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt09_producto164" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt09_producto169" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt10_receta991" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt13_combo145" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt10_receta1001" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt12_receta_grupo144" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefALMt01_unidad_medida116" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt13_combo165" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt17_combo_grupo166" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt15_combo_variable168" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefPROt15_combo_variable167" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefRPTt02_categoria_reporte141" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt10_id_mon" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt13_id_mon" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt08_id_um_comp" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt14id_um_comp" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt10_cod_tipo_comp" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt13_cod_tipo_comp" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt31_departamento931" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefSNTt32_provincia951" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt11_id_comp_recibido" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt12_id_comp_recibido" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.FKCTBt14_id_comp_emitido" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCTBt13_comp_emitido81" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefCTBt13_comp_emitido84" ManuallyRouted="false" />
+        <AssociationConnector Association="EagleModel.RefTNSt04_comp_emitido1391" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

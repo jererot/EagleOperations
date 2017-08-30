@@ -1,0 +1,10 @@
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\bin\Debug\InterfacesManager.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\bin\Debug\InterfacesManager.pdb
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\bin\Debug\MetroFramework.Design.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\bin\Debug\MetroFramework.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.Properties.Resources.resources
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.csproj.GenerateResource.Cache
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.dll
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.pdb
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.csprojResolveAssemblyReference.cache

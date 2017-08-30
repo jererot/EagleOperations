@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72C194F2-7BE1-48B7-9156-C662871CA35A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessEntities</RootNamespace>
+    <AssemblyName>BusinessEntities</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLIt01_paciente.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt02_actividad.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt03_atencion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt04_atencion_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt05_antece_alergia.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt06_tipo_especialidad.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt07_especialidad_medica.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt08_funciones_vitales.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt09_anamnesis.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt10_examen_fisico.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt11_estudio_complementario.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt12_archivo_complementario.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt13_laboratorio.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt14_img_laboratorio.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt15_diagnostico.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt16_cie10.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt17_tratamiento.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt18_evolucion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIt19_cita.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CSHt01_caja_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FISt01_control_numeracion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FISt02_nivel.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FISt03_tipo_numeracion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRLt01_parametro.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRLt02_estado.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRLt03_horario.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRLt04_configuracion_caja.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelEagle.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelEagle.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelEagle.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelEagle.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelEagle.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt01_medio_pago.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt02_descuento.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt03_tipo_orden.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt04_canal_vta.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt05_razon.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt06_impuesto.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt07_estado_civil.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt08_location.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt09_tipo_location.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt10_impresora.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt11_tipo_impresora.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt12_caja.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt13_turno.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt14_mesa.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSTt15_estado_mesa.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PERt01_usuario.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PERt02_cliente.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PERt03_proveedor.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PERt04_empleado.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PERt05_categoria_emp.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PERt06_clase_emp.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PROt01_marca.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt02_modelo.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt03_familia.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt04_subfamilia.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt05_grupo_prod.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt06_clase_prod.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt07_tipo_prod.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt08_precio_prod.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt09_producto.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt10_receta.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt11_receta_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt12_receta_grupo.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt13_combo.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt14_combo_fixed_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt15_combo_variable.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt16_combo_variable_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROt17_combo_grupo.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RPTt01_reporte.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RPTt02_categoria_reporte.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt01_tipo_medio_pago.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt02_tipo_doc_identidad.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt03_entidad_financiera.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt04_tipo_moneda.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt05_tipo_existencia.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt06_unidad_medida.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt07_tipo_intangible.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt08_codigo_libro.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt09_cta_contable.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt10_tipo_comprobante.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt11_aduana.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt12_tipo_operacion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt13_tipo_actividad.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt14_nacionalidad.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt15_via.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt16_zona.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt17_tipo_trabajador.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt18_situacion_educativa.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt19_ocupacion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt20_regimen_pensionario.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt21_condicion_laboral.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt22_periodo_remuneracion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt23_salud_eps.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt24_situacion.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt25_motivo_baja.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt26_modalidad_formativa.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt27_vinculo_familiar.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt28_suspencion_laboral.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt29_regimen_salud.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt30_regimen_laboral.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt31_departamento.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt32_provincia.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SNTt33_distrito.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt01_comp_recibido.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt02_comp_recibido_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt03_comp_recibido_estado.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt04_comp_emitido.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt05_comp_emitido_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt06_comp_emitido_estado.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt07_medio_pago_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TNSt08_descuento_dtl.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TOTt01_total_diario_vta.cs">
+      <DependentUpon>ModelEagle.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="ModelEagle.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelEagle.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="ModelEagle.edmx.diagram">
+      <DependentUpon>ModelEagle.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModelEagle.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelEagle.edmx</DependentUpon>
+      <LastGenOutput>ModelEagle.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelEagle.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelEagle.edmx</DependentUpon>
+      <LastGenOutput>ModelEagle.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
