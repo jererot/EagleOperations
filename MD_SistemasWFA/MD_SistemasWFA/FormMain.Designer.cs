@@ -30,8 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelUp = new MetroFramework.Controls.MetroPanel();
-            this.lblDate = new MetroFramework.Controls.MetroTile();
-            this.txt_Password = new MetroFramework.Controls.MetroTile();
+            this.lblDate2 = new MetroFramework.Controls.MetroTile();
+            this.txt_Password2 = new MetroFramework.Controls.MetroTile();
+            this.txt_Password = new MetroFramework.Controls.MetroTextBox();
             this.lbl_Password = new System.Windows.Forms.Label();
             this.panelCenterDownNumbers = new System.Windows.Forms.Panel();
             this.btn_Delete = new MetroFramework.Controls.MetroTile();
@@ -56,7 +57,9 @@
             this.panelCenter = new System.Windows.Forms.Panel();
             this.btn_EntradaSalida = new MetroFramework.Controls.MetroTile();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txt_Password.SuspendLayout();
+            this.lbl_Date = new System.Windows.Forms.Label();
+            this.lblDate2.SuspendLayout();
+            this.txt_Password2.SuspendLayout();
             this.panelCenterDownNumbers.SuspendLayout();
             this.panelRightDownYN.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).BeginInit();
@@ -83,40 +86,84 @@
             this.panelUp.VerticalScrollbarHighlightOnWheel = false;
             this.panelUp.VerticalScrollbarSize = 10;
             // 
-            // lblDate
+            // lblDate2
             // 
-            this.lblDate.ActiveControl = null;
-            this.lblDate.Location = new System.Drawing.Point(0, 3);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(376, 41);
-            this.lblDate.TabIndex = 0;
-            this.lblDate.Text = "metroTile1";
-            this.lblDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblDate.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.lblDate.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.lblDate.UseSelectable = true;
+            this.lblDate2.ActiveControl = null;
+            this.lblDate2.Controls.Add(this.lbl_Date);
+            this.lblDate2.ForeColor = System.Drawing.Color.Navy;
+            this.lblDate2.Location = new System.Drawing.Point(0, 3);
+            this.lblDate2.Name = "lblDate2";
+            this.lblDate2.Size = new System.Drawing.Size(376, 41);
+            this.lblDate2.TabIndex = 0;
+            this.lblDate2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDate2.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.lblDate2.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.lblDate2.UseCustomForeColor = true;
+            this.lblDate2.UseSelectable = true;
+            // 
+            // txt_Password2
+            // 
+            this.txt_Password2.ActiveControl = null;
+            this.txt_Password2.Controls.Add(this.txt_Password);
+            this.txt_Password2.Controls.Add(this.lbl_Password);
+            this.txt_Password2.Location = new System.Drawing.Point(378, 3);
+            this.txt_Password2.Name = "txt_Password2";
+            this.txt_Password2.Size = new System.Drawing.Size(376, 41);
+            this.txt_Password2.TabIndex = 1;
+            this.txt_Password2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.txt_Password2.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.txt_Password2.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.txt_Password2.UseSelectable = true;
             // 
             // txt_Password
             // 
-            this.txt_Password.ActiveControl = null;
-            this.txt_Password.Controls.Add(this.lbl_Password);
-            this.txt_Password.Location = new System.Drawing.Point(378, 3);
+            this.txt_Password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            // 
+            // 
+            // 
+            this.txt_Password.CustomButton.BackgroundImage = global::MD_SistemasWFA.Properties.Resources.cancel_32_N;
+            this.txt_Password.CustomButton.Image = null;
+            this.txt_Password.CustomButton.Location = new System.Drawing.Point(128, 1);
+            this.txt_Password.CustomButton.Name = "";
+            this.txt_Password.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txt_Password.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txt_Password.CustomButton.TabIndex = 1;
+            this.txt_Password.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txt_Password.CustomButton.UseSelectable = true;
+            this.txt_Password.CustomButton.Visible = false;
+            this.txt_Password.Icon = global::MD_SistemasWFA.Properties.Resources.enter_32_N;
+            this.txt_Password.Lines = new string[0];
+            this.txt_Password.Location = new System.Drawing.Point(223, 8);
+            this.txt_Password.MaxLength = 32767;
             this.txt_Password.Name = "txt_Password";
-            this.txt_Password.Size = new System.Drawing.Size(376, 41);
+            this.txt_Password.PasswordChar = '●';
+            this.txt_Password.PromptText = "# de ID";
+            this.txt_Password.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_Password.SelectedText = "";
+            this.txt_Password.SelectionLength = 0;
+            this.txt_Password.SelectionStart = 0;
+            this.txt_Password.ShortcutsEnabled = true;
+            this.txt_Password.ShowClearButton = true;
+            this.txt_Password.Size = new System.Drawing.Size(150, 23);
             this.txt_Password.TabIndex = 1;
-            this.txt_Password.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.txt_Password.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.txt_Password.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.txt_Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_Password.UseCustomBackColor = true;
+            this.txt_Password.UseCustomForeColor = true;
             this.txt_Password.UseSelectable = true;
+            this.txt_Password.UseSystemPasswordChar = true;
+            this.txt_Password.WaterMark = "# de ID";
+            this.txt_Password.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txt_Password.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // lbl_Password
             // 
             this.lbl_Password.AutoSize = true;
             this.lbl_Password.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_Password.Font = new System.Drawing.Font("Tempus Sans ITC", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Password.Location = new System.Drawing.Point(5, 10);
+            this.lbl_Password.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Password.ForeColor = System.Drawing.Color.Navy;
+            this.lbl_Password.Location = new System.Drawing.Point(5, 9);
             this.lbl_Password.Name = "lbl_Password";
-            this.lbl_Password.Size = new System.Drawing.Size(257, 23);
+            this.lbl_Password.Size = new System.Drawing.Size(221, 20);
             this.lbl_Password.TabIndex = 0;
             this.lbl_Password.Text = "Asignar, Ingrese su # de ID : ";
             // 
@@ -452,8 +499,8 @@
             // 
             // panelCenter
             // 
-            this.panelCenter.Controls.Add(this.lblDate);
-            this.panelCenter.Controls.Add(this.txt_Password);
+            this.panelCenter.Controls.Add(this.txt_Password2);
+            this.panelCenter.Controls.Add(this.lblDate2);
             this.panelCenter.Location = new System.Drawing.Point(23, 239);
             this.panelCenter.Name = "panelCenter";
             this.panelCenter.Size = new System.Drawing.Size(754, 47);
@@ -491,6 +538,17 @@
             this.panel1.Size = new System.Drawing.Size(170, 173);
             this.panel1.TabIndex = 5;
             // 
+            // lbl_Date
+            // 
+            this.lbl_Date.AutoSize = true;
+            this.lbl_Date.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Date.Font = new System.Drawing.Font("Microsoft JhengHei", 12F);
+            this.lbl_Date.Location = new System.Drawing.Point(14, 9);
+            this.lbl_Date.Name = "lbl_Date";
+            this.lbl_Date.Size = new System.Drawing.Size(70, 20);
+            this.lbl_Date.TabIndex = 0;
+            this.lbl_Date.Text = "lbl_Date";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -507,8 +565,10 @@
             this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "FormMain";
             this.Resize += new System.EventHandler(this.FormMain_Resize);
-            this.txt_Password.ResumeLayout(false);
-            this.txt_Password.PerformLayout();
+            this.lblDate2.ResumeLayout(false);
+            this.lblDate2.PerformLayout();
+            this.txt_Password2.ResumeLayout(false);
+            this.txt_Password2.PerformLayout();
             this.panelCenterDownNumbers.ResumeLayout(false);
             this.panelRightDownYN.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).EndInit();
@@ -520,8 +580,8 @@
         #endregion
 
         private MetroFramework.Controls.MetroPanel panelUp;
-        private MetroFramework.Controls.MetroTile lblDate;
-        private MetroFramework.Controls.MetroTile txt_Password;
+        private MetroFramework.Controls.MetroTile lblDate2;
+        private MetroFramework.Controls.MetroTile txt_Password2;
         private System.Windows.Forms.Panel panelCenterDownNumbers;
         private System.Windows.Forms.Panel panelRightDownYN;
         private System.Windows.Forms.Timer timer;
@@ -546,6 +606,8 @@
         private MetroFramework.Controls.MetroTile btn_Delete;
         private MetroFramework.Controls.MetroTile btn_Punto;
         private System.Windows.Forms.Label lbl_Password;
+        private MetroFramework.Controls.MetroTextBox txt_Password;
+        private System.Windows.Forms.Label lbl_Date;
     }
 }
 

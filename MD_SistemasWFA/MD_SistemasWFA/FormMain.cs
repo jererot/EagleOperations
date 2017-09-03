@@ -23,19 +23,19 @@ namespace MD_SistemasWFA
     {
         //Ihttp://icon-icons.com/es/icono
         //(OBJ) TO EVENS
-        ControlEventBL objControlEventBL = new ControlEventBL();
+        ControlEventBL objControlEventBL;
 
         // (OBJ) TO RESIZE
-        ControlResizeBL objControlResizeBL = new ControlResizeBL();
+        ControlResizeBL objControlResizeBL;
 
         // (OBJ) OLD FORM
         Form OldForm = new Form();
         // (OBJ LIST) ORIGINAL SIZE CONTROLS
-        List<Rectangle> listRectangleOriginalSizeControls = new List<Rectangle>();
+        List<Rectangle> listRectangleOriginalSizeControls;
         //(OBJ LIST) ORIGINAL LIST CONTROLS 
-        List<Control> listOriginalControls = new List<Control>();
+        List<Control> listOriginalControls;
         // (OBJ LIST) LIST BTN CREATING 
-        List<Control> listBtnCretae = new List<Control>();
+        List<Control> listBtnCretae;
         
         // (STRING) PASSWORD
         private string password = "";
@@ -77,7 +77,7 @@ namespace MD_SistemasWFA
             {
                 MetroMessageBox.Show(this, "El # de ID ingresado no es correcto ", "Error al Ingresar", MessageBoxButtons.OK, MessageBoxIcon.Error, 120);
                 password = "";
-                txt_Password.Text = "";
+                txt_Password2.Text = "";
             }
         }
         #endregion
@@ -112,7 +112,7 @@ namespace MD_SistemasWFA
             string a = DateTime.Today.ToString("D");
             //string b = DateTime.Now.ToString("HH:mm:ss.f");
             string b = DateTime.Now.ToString("HH:mm:ss");
-            lblDate.Text = a + " - " + b;
+            lbl_Date.Text = a + " - " + b;
         }
         #endregion
 
@@ -120,6 +120,7 @@ namespace MD_SistemasWFA
         //MOUSE ENTER AND LEAVE (METHO GENERAL)
         private void Control_MouseEnter(object sender, EventArgs e)
         {
+            objControlEventBL = new ControlEventBL();
             var ctn = (MetroFramework.Controls.MetroTile)sender;
             ctn = objControlEventBL.MouseEnter(sender);
         }
@@ -127,6 +128,7 @@ namespace MD_SistemasWFA
         {
             var ctn = (MetroFramework.Controls.MetroTile)sender;
             ctn = objControlEventBL.MouseLeave(sender);
+            objControlEventBL = null;
         }
         #endregion
 
@@ -180,6 +182,11 @@ namespace MD_SistemasWFA
         }
         private void ReadOriginalRectControls()
         {
+            //CRETAE --> DELETE (OTHER METHOD)
+            listOriginalControls = new List<Control>();
+            objControlResizeBL = new ControlResizeBL();
+            listRectangleOriginalSizeControls = new List<Rectangle>();
+
             //READ CONTROLS
             Form newForm = this;
             for (int i = 0; i < newForm.Controls.Count; i++)
@@ -187,8 +194,10 @@ namespace MD_SistemasWFA
                 listOriginalControls.Add(newForm.Controls[i]);
             }
             //ERROR:
-            listOriginalControls.Add(lblDate);
+            listOriginalControls.Add(lblDate2);
+            listOriginalControls.Add(txt_Password2);
             listOriginalControls.Add(txt_Password);
+
             //ERROR BTNS
             listOriginalControls.Add(btn_00);
             listOriginalControls.Add(btn_Punto);
@@ -212,10 +221,13 @@ namespace MD_SistemasWFA
             {
                 listOriginalControls.Add(listBtnCretae[z]);
             }
+            //DELETE (OTHER METHOD)
+            listBtnCretae = null;
 
             //ADD THE OBJCONTROLRESIZE
             objControlResizeBL.OriginalRectControls(listOriginalControls);
             //CONTROLS TO LIST<RECTANGLE> CONTROLS 
+
             for (int j = 0; j < listOriginalControls.Count; j++)
             {
                 Rectangle RectangleControls = new Rectangle(listOriginalControls[j].Location.X, listOriginalControls[j].Location.Y, listOriginalControls[j].Width, listOriginalControls[j].Height);
@@ -224,7 +236,7 @@ namespace MD_SistemasWFA
         }
         #endregion
 
-        #region (CRETE) CHANNELS
+        #region (METHOD) CREATE CHANNELS
         public void CreateChannels(int x)
         {
             panelLeftDownChannels.Controls.Clear();
@@ -237,6 +249,11 @@ namespace MD_SistemasWFA
             var listMSTt04_canal_vtaBL = MSTt04_canal_vtaBL.GetCanals2();
             //NEW
             ControlCreateBL objControlCreateBL = new ControlCreateBL();
+
+            //CREATE AND DELETE
+            objControlEventBL = new ControlEventBL();
+            listBtnCretae = new List<Control>();
+
             for (int i = 0; i < listMSTt04_canal_vtaBL.Count; i++)
             {
                 //Button btnNuevo = new Button();
@@ -260,6 +277,7 @@ namespace MD_SistemasWFA
 
                 listBtnCretae.Add(btnNuevo);
             }
+            objControlEventBL = null;
         }
         #endregion
 
