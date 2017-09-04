@@ -2,3 +2,8 @@ C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\bin\Deb
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\bin\Debug\Service.pdb
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\obj\Debug\Service.dll
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\Service\obj\Debug\Service.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Service\bin\Debug\Service.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Service\bin\Debug\Service.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Service\obj\Debug\Service.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Service\obj\Debug\Service.pdb

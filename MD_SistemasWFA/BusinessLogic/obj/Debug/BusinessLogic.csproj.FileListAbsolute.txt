@@ -10,3 +10,17 @@ C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\b
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessEntities.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessEntities.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\BusinessEntities.dll.config
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\DataAccess.dll.config
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessLogic\obj\Debug\BusinessLogic.pdb

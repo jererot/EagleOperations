@@ -12,7 +12,7 @@ using MaterialSkin.Controls;
 using MaterialSkin;
 using MD_SistemasWFA.Properties;
 using System.Resources;
-using BusinessLogic.MST_BL;
+using BusinessLogic.Master;
 using InterfacesManager.IM_BL;
 using MetroFramework.Controls;
 using MetroFramework;
@@ -55,14 +55,20 @@ namespace MD_SistemasWFA
             CreateChannels(7);
 
             //METHOD (SAVE) THIS SIZE
-            OldForm.Size = this.Size;
+            OldForm.Size = Size;
 
             //METHOD (SEND) READ ORIGINAL (RECTANGLECONTROLS AND CONTROLS)
             ReadOriginalRectControls();
         }
 
-            
+
         //EVENTS TO BUTTONS
+        #region (EVENT) TXT_PASSWORDCLEAR
+        private void txt_Password_ClearClicked()
+        {
+            password = "";
+        }
+        #endregion
         #region (EVENT) BTN_SI
         private void btn_Si_Click(object sender, EventArgs e)
         {
@@ -77,11 +83,11 @@ namespace MD_SistemasWFA
             {
                 MetroMessageBox.Show(this, "El # de ID ingresado no es correcto ", "Error al Ingresar", MessageBoxButtons.OK, MessageBoxIcon.Error, 120);
                 password = "";
-                txt_Password2.Text = "";
+                txt_Password.Text = "";
             }
         }
         #endregion
-        #region (EVENTS) BTN_NO 
+        #region (EVENT) BTN_NO 
         private void btn_No_Click(object sender, EventArgs e)
         {
             Dispose();
@@ -157,7 +163,8 @@ namespace MD_SistemasWFA
         }
         private void btn_Punto_Click(object sender, EventArgs e)
         {
-            password += ".";
+            password += ((MetroTile)sender).Tag;
+            txt_Password.Text += ".";
         }
         private void btn_Number_Click(object sender, EventArgs e)
         {
@@ -175,7 +182,7 @@ namespace MD_SistemasWFA
         {
             Form NewForm = this;
             //METHOD(RETURN) NEW SIZE CONTROLS           
-            if (listOriginalControls.Count > 0)
+            if (listOriginalControls != null )
             {
                 listOriginalControls = objControlResizeBL.resizeChildrenControlsAll(OldForm, NewForm);
             }
@@ -246,7 +253,8 @@ namespace MD_SistemasWFA
             panelLeftDownChannels.HorizontalScroll.Maximum = 0;
             panelLeftDownChannels.AutoScroll = true;
 
-            var listMSTt04_canal_vtaBL = MSTt04_canal_vtaBL.GetCanals2();
+            CanalBL objCanalBL = new CanalBL();
+            var listMSTt04_canal_vtaBL = objCanalBL.GetCanals();
             //NEW
             ControlCreateBL objControlCreateBL = new ControlCreateBL();
 
@@ -279,6 +287,7 @@ namespace MD_SistemasWFA
             }
             objControlEventBL = null;
         }
+
         #endregion
 
         

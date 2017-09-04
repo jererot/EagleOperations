@@ -8,3 +8,14 @@ C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessEntitie
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessEntities\obj\Debug\BusinessEntities.dll
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\bin\Debug\BusinessEntities.dll.config
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\bin\Debug\EntityFramework.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\bin\Debug\EntityFramework.xml
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\BusinessEntities\obj\Debug\BusinessEntities.pdb

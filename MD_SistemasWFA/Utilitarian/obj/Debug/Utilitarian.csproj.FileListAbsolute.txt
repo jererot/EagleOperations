@@ -1,0 +1,8 @@
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\obj\Debug\Utilitarian.csprojResolveAssemblyReference.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\obj\Debug\Utilitarian.csproj.CoreCompileInputs.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\bin\Debug\Utilitarian.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\bin\Debug\Utilitarian.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\bin\Debug\Ionic.Zip.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\bin\Debug\MetroFramework.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\obj\Debug\Utilitarian.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\Utilitarian\obj\Debug\Utilitarian.pdb

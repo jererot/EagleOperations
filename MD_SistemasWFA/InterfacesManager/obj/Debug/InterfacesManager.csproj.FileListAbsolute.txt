@@ -8,3 +8,11 @@ C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManag
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.dll
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.pdb
 C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.csprojResolveAssemblyReference.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\bin\Debug\InterfacesManager.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\bin\Debug\InterfacesManager.pdb
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.csprojResolveAssemblyReference.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.Properties.Resources.resources
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.csproj.GenerateResource.Cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.csproj.CoreCompileInputs.cache
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.dll
+C:\Users\ROY\Documents\GitHub\EagleOperations\MD_SistemasWFA\InterfacesManager\obj\Debug\InterfacesManager.pdb

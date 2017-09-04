@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="MST_BL\MSTt04_canal_vtaBL.cs" />
+    <Compile Include="Master\CanalBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,7 +52,7 @@
       <Name>BusinessEntities</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
-      <Project>{FDBBF617-9342-4173-8BD8-3E96D77A033B}</Project>
+      <Project>{fdbbf617-9342-4173-8bd8-3e96d77a033b}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
   </ItemGroup>

@@ -47,9 +47,10 @@
             this.btn_ok.ActiveControl = null;
             this.btn_ok.BackColor = System.Drawing.Color.RoyalBlue;
             this.btn_ok.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btn_ok.Location = new System.Drawing.Point(23, 339);
+            this.btn_ok.Location = new System.Drawing.Point(31, 417);
+            this.btn_ok.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_ok.Name = "btn_ok";
-            this.btn_ok.Size = new System.Drawing.Size(120, 38);
+            this.btn_ok.Size = new System.Drawing.Size(160, 47);
             this.btn_ok.Style = MetroFramework.MetroColorStyle.Green;
             this.btn_ok.TabIndex = 11;
             this.btn_ok.Text = "OK";
@@ -64,9 +65,10 @@
             this.btn_cancel.ActiveControl = null;
             this.btn_cancel.BackColor = System.Drawing.Color.RoyalBlue;
             this.btn_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btn_cancel.Location = new System.Drawing.Point(157, 339);
+            this.btn_cancel.Location = new System.Drawing.Point(209, 417);
+            this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Size = new System.Drawing.Size(120, 38);
+            this.btn_cancel.Size = new System.Drawing.Size(160, 47);
             this.btn_cancel.Style = MetroFramework.MetroColorStyle.Red;
             this.btn_cancel.TabIndex = 10;
             this.btn_cancel.Text = "CANCEL";
@@ -80,9 +82,10 @@
             // 
             this.btn_03.ActiveControl = null;
             this.btn_03.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_03.Location = new System.Drawing.Point(197, 235);
+            this.btn_03.Location = new System.Drawing.Point(263, 289);
+            this.btn_03.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_03.Name = "btn_03";
-            this.btn_03.Size = new System.Drawing.Size(80, 80);
+            this.btn_03.Size = new System.Drawing.Size(107, 98);
             this.btn_03.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_03.TabIndex = 20;
             this.btn_03.Text = "3";
@@ -98,9 +101,10 @@
             // 
             this.btn_02.ActiveControl = null;
             this.btn_02.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_02.Location = new System.Drawing.Point(111, 235);
+            this.btn_02.Location = new System.Drawing.Point(148, 289);
+            this.btn_02.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_02.Name = "btn_02";
-            this.btn_02.Size = new System.Drawing.Size(80, 80);
+            this.btn_02.Size = new System.Drawing.Size(107, 98);
             this.btn_02.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_02.TabIndex = 19;
             this.btn_02.Text = "2";
@@ -116,9 +120,10 @@
             // 
             this.btn_01.ActiveControl = null;
             this.btn_01.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_01.Location = new System.Drawing.Point(23, 235);
+            this.btn_01.Location = new System.Drawing.Point(31, 289);
+            this.btn_01.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_01.Name = "btn_01";
-            this.btn_01.Size = new System.Drawing.Size(80, 80);
+            this.btn_01.Size = new System.Drawing.Size(107, 98);
             this.btn_01.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_01.TabIndex = 18;
             this.btn_01.Text = "1";
@@ -134,9 +139,10 @@
             // 
             this.btn_06.ActiveControl = null;
             this.btn_06.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_06.Location = new System.Drawing.Point(197, 149);
+            this.btn_06.Location = new System.Drawing.Point(263, 183);
+            this.btn_06.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_06.Name = "btn_06";
-            this.btn_06.Size = new System.Drawing.Size(80, 80);
+            this.btn_06.Size = new System.Drawing.Size(107, 98);
             this.btn_06.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_06.TabIndex = 17;
             this.btn_06.Text = "6";
@@ -152,9 +158,10 @@
             // 
             this.btn_05.ActiveControl = null;
             this.btn_05.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_05.Location = new System.Drawing.Point(111, 149);
+            this.btn_05.Location = new System.Drawing.Point(148, 183);
+            this.btn_05.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_05.Name = "btn_05";
-            this.btn_05.Size = new System.Drawing.Size(80, 80);
+            this.btn_05.Size = new System.Drawing.Size(107, 98);
             this.btn_05.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_05.TabIndex = 16;
             this.btn_05.Text = "5";
@@ -170,9 +177,10 @@
             // 
             this.btn_04.ActiveControl = null;
             this.btn_04.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_04.Location = new System.Drawing.Point(23, 149);
+            this.btn_04.Location = new System.Drawing.Point(31, 183);
+            this.btn_04.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_04.Name = "btn_04";
-            this.btn_04.Size = new System.Drawing.Size(80, 80);
+            this.btn_04.Size = new System.Drawing.Size(107, 98);
             this.btn_04.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_04.TabIndex = 15;
             this.btn_04.Text = "4";
@@ -188,9 +196,10 @@
             // 
             this.btn_08.ActiveControl = null;
             this.btn_08.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_08.Location = new System.Drawing.Point(111, 63);
+            this.btn_08.Location = new System.Drawing.Point(148, 78);
+            this.btn_08.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_08.Name = "btn_08";
-            this.btn_08.Size = new System.Drawing.Size(80, 80);
+            this.btn_08.Size = new System.Drawing.Size(107, 98);
             this.btn_08.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_08.TabIndex = 14;
             this.btn_08.Text = "8";
@@ -206,9 +215,10 @@
             // 
             this.btn_09.ActiveControl = null;
             this.btn_09.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_09.Location = new System.Drawing.Point(197, 63);
+            this.btn_09.Location = new System.Drawing.Point(263, 78);
+            this.btn_09.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_09.Name = "btn_09";
-            this.btn_09.Size = new System.Drawing.Size(80, 80);
+            this.btn_09.Size = new System.Drawing.Size(107, 98);
             this.btn_09.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_09.TabIndex = 13;
             this.btn_09.Text = "9";
@@ -224,9 +234,10 @@
             // 
             this.btn_07.ActiveControl = null;
             this.btn_07.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_07.Location = new System.Drawing.Point(23, 63);
+            this.btn_07.Location = new System.Drawing.Point(31, 78);
+            this.btn_07.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_07.Name = "btn_07";
-            this.btn_07.Size = new System.Drawing.Size(80, 80);
+            this.btn_07.Size = new System.Drawing.Size(107, 98);
             this.btn_07.Style = MetroFramework.MetroColorStyle.Silver;
             this.btn_07.TabIndex = 12;
             this.btn_07.Text = "7";
@@ -244,38 +255,38 @@
             // 
             // 
             this.lbl_Number.CustomButton.Image = null;
-            this.lbl_Number.CustomButton.Location = new System.Drawing.Point(85, 1);
+            this.lbl_Number.CustomButton.Location = new System.Drawing.Point(117, 2);
+            this.lbl_Number.CustomButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbl_Number.CustomButton.Name = "";
-            this.lbl_Number.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.lbl_Number.CustomButton.Size = new System.Drawing.Size(23, 23);
             this.lbl_Number.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.lbl_Number.CustomButton.TabIndex = 1;
             this.lbl_Number.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.lbl_Number.CustomButton.UseSelectable = true;
             this.lbl_Number.Lines = new string[0];
-            this.lbl_Number.Location = new System.Drawing.Point(170, 24);
+            this.lbl_Number.Location = new System.Drawing.Point(227, 30);
+            this.lbl_Number.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbl_Number.MaxLength = 32767;
             this.lbl_Number.Name = "lbl_Number";
             this.lbl_Number.PasswordChar = '\0';
-            this.lbl_Number.PromptText = "0";
             this.lbl_Number.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.lbl_Number.SelectedText = "";
             this.lbl_Number.SelectionLength = 0;
             this.lbl_Number.SelectionStart = 0;
             this.lbl_Number.ShortcutsEnabled = true;
             this.lbl_Number.ShowButton = true;
-            this.lbl_Number.Size = new System.Drawing.Size(107, 23);
+            this.lbl_Number.Size = new System.Drawing.Size(143, 28);
             this.lbl_Number.TabIndex = 22;
             this.lbl_Number.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.lbl_Number.UseSelectable = true;
-            this.lbl_Number.WaterMark = "0";
             this.lbl_Number.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.lbl_Number.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // ShowFormMessageNumbers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(300, 400);
+            this.ClientSize = new System.Drawing.Size(400, 492);
             this.Controls.Add(this.lbl_Number);
             this.Controls.Add(this.btn_03);
             this.Controls.Add(this.btn_02);
@@ -288,7 +299,9 @@
             this.Controls.Add(this.btn_07);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.btn_cancel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ShowFormMessageNumbers";
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Resizable = false;
             this.Text = "Message Numbers";
             this.ResumeLayout(false);

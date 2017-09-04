@@ -5,10 +5,10 @@ namespace BusinessEntities
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class EagleOperationsContext : DbContext
+    public partial class EagleContext : DbContext
     {
-        public EagleOperationsContext()
-            : base("name=EagleOperationsContext")
+        public EagleContext()
+            : base("name=EagleContext")
         {
         }
 
@@ -112,7 +112,6 @@ namespace BusinessEntities
         public virtual DbSet<SNTt31_departamento> SNTt31_departamento { get; set; }
         public virtual DbSet<SNTt32_provincia> SNTt32_provincia { get; set; }
         public virtual DbSet<SNTt33_distrito> SNTt33_distrito { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<TNSt01_comp_recibido> TNSt01_comp_recibido { get; set; }
         public virtual DbSet<TNSt02_comp_recibido_dtl> TNSt02_comp_recibido_dtl { get; set; }
         public virtual DbSet<TNSt03_comp_recibido_estado> TNSt03_comp_recibido_estado { get; set; }

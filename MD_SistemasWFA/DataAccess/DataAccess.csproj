@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="MST_DA\MSTt04_canal_vtaDA.cs" />
+    <Compile Include="Master\CanalDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +62,10 @@
     <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
       <Project>{72c194f2-7be1-48b7-9156-c662871ca35a}</Project>
       <Name>BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilitarian\Utilitarian.csproj">
+      <Project>{19a2dd04-986c-45ed-91e1-0bf220934cba}</Project>
+      <Name>Utilitarian</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
