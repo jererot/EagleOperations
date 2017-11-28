@@ -9,8 +9,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Utilitarian</RootNamespace>
     <AssemblyName>Utilitarian</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,6 +33,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AForge.Video">
+      <HintPath>D:\PROGRAMING\DLL\AFORGE\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>D:\PROGRAMING\DLL\AFORGE\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2017">
+      <HintPath>D:\PROGRAMING\DLL\EMGU\Emgu.CV.DebuggerVisualizers.VS2017.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>D:\PROGRAMING\DLL\EMGU\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI.GL">
+      <HintPath>D:\PROGRAMING\DLL\EMGU\Emgu.CV.UI.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>D:\PROGRAMING\DLL\EMGU\Emgu.CV.World.dll</HintPath>
+    </Reference>
     <Reference Include="Ionic.Zip">
       <HintPath>D:\DLL\IONIC\Ionic.Zip.dll</HintPath>
     </Reference>
@@ -40,6 +61,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,11 +69,15 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraph.5.1.5\lib\ZedGraph.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Extensions\ColorExt.cs" />
     <Compile Include="Extensions\StringExt.cs" />
+    <Compile Include="FaceRecognition\FaceRecognitionClass.cs" />
     <Compile Include="HelperClass\ComboItem.cs" />
     <Compile Include="HelperClass\Filtro.cs" />
     <Compile Include="HelperControl\ControlHelper.cs" />
@@ -64,6 +90,8 @@
     <Compile Include="HelperGeneric\UtilString.cs" />
     <Compile Include="HelperGeneric\Validation.cs" />
     <Compile Include="HelperMultimedia\CamWeb.cs" />
+    <Compile Include="HelperMultimedia\CamWebAforge.cs" />
+    <Compile Include="HelperMultimedia\DetectFaceEmgu.cs" />
     <Compile Include="HelperMultimedia\FileIO.cs" />
     <Compile Include="HelperMultimedia\FilePath.cs" />
     <Compile Include="HelperMultimedia\SendFTP.cs" />
@@ -79,6 +107,9 @@
     <Compile Include="Security\Connection.cs" />
     <Compile Include="Security\Encription.cs" />
     <Compile Include="Security\Log.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

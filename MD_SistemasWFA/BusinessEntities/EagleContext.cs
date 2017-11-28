@@ -7,8 +7,8 @@ namespace BusinessEntities
 
     public partial class EagleContext : DbContext
     {
-        public EagleContext()
-            : base("name=EagleContext")
+        public EagleContext(string connectionString= "name=EagleContext")
+            : base(connectionString)
         {
         }
 

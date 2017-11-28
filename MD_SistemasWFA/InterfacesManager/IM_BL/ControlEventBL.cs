@@ -14,13 +14,18 @@ namespace InterfacesManager.IM_BL
         ControlEventDA objControlEventDA = new ControlEventDA();
 
         #region (METHOD) MOUSE ENTER-LEAVE
-        public MetroTile MouseEnter(object sender)
+        //public MetroTile MouseEnter(object sender)
+        //{
+        //    return objControlEventDA.MouseEnter(sender);
+        //}
+        public Button MouseEnter(object sender)
         {
-            return objControlEventDA.MouseEnter(sender);
+            return objControlEventDA.Mouseenter(sender);
         }
-        public MetroTile MouseLeave(object sender)
+
+        public Button MouseLeave(object sender)
         {
-            return objControlEventDA.MouseLeave(sender);
+            return objControlEventDA.Mouseleave(sender);
         }
         #endregion
 

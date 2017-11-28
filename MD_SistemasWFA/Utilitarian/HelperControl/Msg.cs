@@ -9,31 +9,31 @@ namespace Utilitarian.HelperControl
 {
     public class Msg
     {
-        public static DialogResult Ok_Info(string msj, string title = "Mensaje")
+        public DialogResult Ok_Info(string msj, string title = "Mensaje")
         {
             return MessageBox.Show(msj, title, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        public static DialogResult Ok_Wng(string msj, string title = "Mensaje")
+        public DialogResult Ok_Wng(string msj, string title = "Mensaje")
         {
             return MessageBox.Show(msj, title, MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
-        public static DialogResult Ok_Err(string msj, string title = "Mensaje")
+        public DialogResult Ok_Err(string msj, string title = "Mensaje")
         {
             return MessageBox.Show(msj, title, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        public static DialogResult YesNo_Ques(string msj, string title = "Confirmación")
+        public DialogResult YesNo_Ques(string msj, string title = "Confirmación")
         {
             return MessageBox.Show(msj, title, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
-        public static DialogResult OkCancel_Ques(string msj, string title = "Mensaje")
+        public DialogResult OkCancel_Ques(string msj, string title = "Mensaje")
         {
             return MessageBox.Show(msj, title, MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
         }
 
-        public static DialogResult OkCancel_Wng(string msj, string title = "Mensaje")
+        public DialogResult OkCancel_Wng(string msj, string title = "Mensaje")
         {
             return MessageBox.Show(msj, title, MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
         }

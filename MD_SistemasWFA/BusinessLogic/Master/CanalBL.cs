@@ -12,6 +12,12 @@ namespace BusinessLogic.Master
     {
         CanalDA objCanalDA = new CanalDA();
 
+        //(METHOS) RETURN ALL OR A SIGLE CHANNEL DATA LIST
+        public List<MSTt04_canal_vta> ListCanal(int? id_estado = null)
+        {
+            return new CanalDA().ListCanal(id_estado);
+        }
+
         //(METHOD) RETURN ALL LIST OF CANALES
         public List<MSTt04_canal_vta> GetCanals()
         {

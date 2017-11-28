@@ -13,49 +13,80 @@ namespace InterfacesManager.IM_DA
     {
         #region (METHOD) EVENT MOUSE ENTER-LEAVE
         //PUCLIC EVENT IMG
-        Image timeImage;
-        public MetroTile MouseEnter(object sender)
+        Image ControlTimeImage;
+        Color ControlColor;
+
+        public Button Mouseenter(object sender)
         {
-            var control = (MetroTile)sender;
-            control.UseCustomBackColor = true;
-            if (control.UseTileImage == true)
+            var control = (Button)sender;
+            //control.usecustombackcolor = true;
+            ControlColor = control.BackColor;
+            control.BackColor = Color.LightSteelBlue;
+            if (control.Tag!=null)
             {
-                //GUARDANDO IMG
-                timeImage = control.TileImage;
-                //1 FORMA DESDE RESOURCES
-                string nameImage = control.Tag + "";
-                nameImage = nameImage.Replace("N", "S");
-                /* color red = 14 ,91 , 55
-                 * 2 FORMA DESDE UNA CARPETA EXTERNA
-                 * //GLOBAL NAME IMG
-                 * string imgName = "";
-                 * string path = @"C:\Resource\";
-                 * nameImage = control.Tag + ""path;
-                 * Image image1 = Image.FromFile( + imgName);
-                 * Image image1 = Image.FromFile("c:\\img1.png");
-                 */
-                control.TileImage = GetImageByName(nameImage);
+                //guardando img
+                ControlTimeImage = control.Image;
+                //1 forma desde resources
+                string nameimage = control.Tag + "";
+                nameimage = nameimage.Replace("N", "S");
+                control.Image = GetImageByName(nameimage);
             }
             return control;
         }
-        public MetroTile MouseLeave(object sender)
+        public Button Mouseleave(object sender)
         {
-            var control = (MetroTile)sender;
-            control.UseCustomBackColor = false;
-            if (control.UseTileImage == true)
+            var control = (Button)sender;
+            //control.usecustombackcolor = false;
+            control.BackColor = ControlColor;
+            if (control.Tag != null)
             {
-                //1 FORMA DESDE RESOURCES YA NO ES NECESARIO
-                //string nameImage = control.Tag + "";               
-                //nameImage = nameImage.Replace("S", "N");
-                /*2 FORMA DESDE UNA CARPETA EXTERNA
-                 * nameImage = control.Tag + ""path;
-                 * Image image1 = Image.FromFile( + imgName);
-                 */
-                //control.TileImage = GetImageByName(nameImage);
-                control.TileImage = timeImage;
+                control.Image = ControlTimeImage;
             }
             return control;
         }
+
+        //public MetroTile MouseEnter(object sender)
+        //{
+        //    var control = (MetroTile)sender;
+        //    control.UseCustomBackColor = true;
+        //    if (control.UseTileImage == true)
+        //    {
+        //        //GUARDANDO IMG
+        //        timeImage = control.TileImage;
+        //        //1 FORMA DESDE RESOURCES
+        //        string nameImage = control.Tag + "";
+        //        nameImage = nameImage.Replace("N", "S");
+        //        /* color red = 14 ,91 , 55
+        //         * 2 FORMA DESDE UNA CARPETA EXTERNA
+        //         * //GLOBAL NAME IMG
+        //         * string imgName = "";
+        //         * string path = @"C:\Resource\";
+        //         * nameImage = control.Tag + ""path;
+        //         * Image image1 = Image.FromFile( + imgName);
+        //         * Image image1 = Image.FromFile("c:\\img1.png");
+        //         */
+        //        control.TileImage = GetImageByName(nameImage);
+        //    }
+        //    return control;
+        //}
+        //public MetroTile MouseLeave(object sender)
+        //{
+        //    var control = (MetroTile)sender;
+        //    control.UseCustomBackColor = false;
+        //    if (control.UseTileImage == true)
+        //    {
+        //        //1 FORMA DESDE RESOURCES YA NO ES NECESARIO
+        //        //string nameImage = control.Tag + "";               
+        //        //nameImage = nameImage.Replace("S", "N");
+        //        /*2 FORMA DESDE UNA CARPETA EXTERNA
+        //         * nameImage = control.Tag + ""path;
+        //         * Image image1 = Image.FromFile( + imgName);
+        //         */
+        //        //control.TileImage = GetImageByName(nameImage);
+        //        control.TileImage = timeImage;
+        //    }
+        //    return control;
+        //}
         #endregion
         //PERMITE CAMBIAR LA IMG DESDE LOS RECURSOS
         public Bitmap GetImageByName(string imageName)
@@ -84,8 +115,8 @@ namespace InterfacesManager.IM_DA
         private void ControlEventChangeChannels_Click(object sender, EventArgs e)
         {
             string tag = ((MetroTile)sender).Tag+"";
-            Form ControlSearch = new Form();
-            Control Controles = ControlSearch.Controls.Find("panelLeftDownChannels",true)[0];
+            //FormMain ControlSearch = new FormMain();
+            //Control Controles = ControlSearch.Controls.Find("panelLeftDownChannels",true)[0];
             MessageBox.Show(tag);
         }
         #endregion

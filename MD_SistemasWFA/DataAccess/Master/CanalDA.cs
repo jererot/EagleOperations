@@ -3,10 +3,13 @@ using BusinessEntities.Connectionn;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Utilitarian;
+using Dapper;
+using System.Configuration;
 
 namespace DataAccess.Master
 {
@@ -21,12 +24,13 @@ namespace DataAccess.Master
             sentencia = (id_estado == null) ?
                 @"SELECT * FROM MSTt04_canal_vta" :
                 @"SELECT * FROM MSTt04_canal_vta WHERE id_estado=@id_estado";
-            using (var cnn = new SqlConnection(ConnectionManager.GetConnectionString()))
+            //using (var cnn = new SqlConnection(ConnectionManager.GetConnectionString()))
+            using (var cnn = new SqlConnection(ConfigurationManager.ConnectionStrings["EagleContext"].ConnectionString))
             {
                 try
                 {
                     cnn.Open();
-                    lista = null;// cnn.Query<MSTt04_canal_vta>(sentencia, new { id_estado }).ToList();
+                    lista = cnn.Query<MSTt04_canal_vta>(sentencia, new { id_estado }).ToList();
                 }
                 catch (Exception e)
                 {
